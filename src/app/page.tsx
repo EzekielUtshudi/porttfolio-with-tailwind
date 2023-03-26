@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
@@ -6,8 +6,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+   
     <main >
-      
+      <section className='bg-blue-700'>
+              <h1>hello world</h1>
+      </section>
     </main>
   )
 }
